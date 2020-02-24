@@ -71,7 +71,7 @@ Configure the application in just wallet folder. Change the rpcUrl to the Nginx 
 
 ### Step 7: Start Nginx
 
-
+&nbsp;
 ## Deploy by Docker
 
 ### Step 1: Install Just node and configure
