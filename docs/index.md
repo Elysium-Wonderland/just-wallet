@@ -1,4 +1,4 @@
-# Install Guide
+# Installation Guide
 
 Just wallet is a single page web application. It should be deployed in a web server (nginx, apache...) and end user can access it by any web browser (chrome, firefox). It can be deployed directly or by docker.
 
