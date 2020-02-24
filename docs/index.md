@@ -1,6 +1,6 @@
 # Install Guide
 
-Just wallet is a single page web application. It should be deployed in a web server (nginx, apache...) and end user can access it by any browser (chrome, firefox). It can be deployed directly or by docker.
+Just wallet is a single page web application. It should be deployed in a web server (nginx, apache...) and end user can access it by any web browser (chrome, firefox). It can be deployed directly or by docker.
 
 
 
@@ -8,15 +8,15 @@ Just wallet is a single page web application. It should be deployed in a web ser
 
 ### Step 1: Install Just node and configure
 
-please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
+Please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
 
 ### Step 2: Install Nginx
 
-please go to the [Nginx Docs](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+Please go to the [Nginx Docs](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
 ### Step 3: Configure Nginx as proxy of Just Node
 
-For security, Just rpc doesn't support Cross-Origin Resource Sharing (CORS). So a proxy is required if wallet running a browser wants to call RPC from Justd. We suggest using Nginx to act the proxy. CORS should be enabled in the Nginx configuration as well.
+For security, Just rpc doesn't support Cross-Origin Resource Sharing (CORS). So a proxy is required if wallet running in browser wants to call RPC from Justd. We suggest using Nginx to act the proxy. CORS should be enabled in the Nginx configuration as well.
 
 Below is an sample to config the proxy in Nginx:
 
@@ -76,7 +76,7 @@ Configure the application in just wallet folder. Change the rpcUrl to the Nginx 
 
 ### Step 1: Install Just node and configure
 
-please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
+Please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
 
 ### Step 2: Docker pull
 
