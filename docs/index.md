@@ -8,7 +8,7 @@ Just wallet is a single page web application. It should be deployed in a web ser
 
 ### Step 1: Install Just node and configure
 
-please go to the [Just Docs](https://github.com/Elysium-Wonderland/Justice-Universe/blob/master/docs/supernode.md)
+please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
 
 ### Step 2: Install Nginx
 
@@ -76,7 +76,7 @@ Configure the application in just wallet folder. Change the rpcUrl to the Nginx 
 
 ### Step 1: Install Just node and configure
 
-please go to the [Just Docs](https://github.com/Elysium-Wonderland/Justice-Universe/blob/master/docs/supernode.md)
+please go to the [Just Docs](https://justice-universe.readthedocs.io/supernode/)
 
 ### Step 2: Docker pull
 
