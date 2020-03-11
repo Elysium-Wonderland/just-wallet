@@ -85,6 +85,7 @@ docker pull elysiumwonder/just-wallet:latest
 ### Step 3: Run Docker
 
 docker run -p 8080:8080 --name just-wallet --env WEB_SERVER_URL='[web_server_url]' --env JUST_NODE_URL='[just_node_url]' elysiumwonder/just-wallet:latest
+
 > web_server_url is the real endpoint of the wallet application. User can input the url in browser (chrome) to access the wallet.
 > just_node_url is the rpc endpoint of just node installed above.
 > e.g. Connect to test net: docker run -p 8080:8080 --name just-wallet --env WEB_SERVER_URL='http://127.0.0.1:8080' --env JUST_NODE_URL='http://157.230.39.223:1317' elysiumwonder/just-wallet:latest
